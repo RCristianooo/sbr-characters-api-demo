@@ -104,7 +104,7 @@ input[type="submit"]:hover {
   }
 
   ::placeholder {
-    color: #76291c; /* Adjusted placeholder color for better contrast */
+    color: beige; /* Adjusted placeholder color for better contrast */
   }
 
   input[type="submit"] {

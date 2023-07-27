@@ -56,3 +56,69 @@ input[type="submit"]:hover {
   background-color: beige;
   color: #76291c;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: beige;
+  }
+
+  /* Background Image */
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp4353666.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1, h2 {
+    color: #76291c;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  span {
+    color: #76291c;
+    font-size: 24px;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  /* Input Styles */
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #76291c;
+    color: #76291c;
+    width: 100%; /* Adjusted width to fit the mobile screen */
+    box-sizing: border-box;
+    font-size: 18px; /* Reduced font size for better mobile readability */
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+  }
+
+  ::placeholder {
+    color: #76291c; /* Adjusted placeholder color for better contrast */
+  }
+
+  input[type="submit"] {
+    background-color: #76291c;
+    color: beige;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: beige;
+    color: #76291c;
+  }
+}
